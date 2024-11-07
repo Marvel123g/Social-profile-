@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   font-family:'Poppins';
+}
+h3{
+    color: rgb(255, 255, 12);
+}
+.container{
+    text-align: center;
+    background: rgb(63, 62, 62);
+    margin: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+img{
+    width: 150px;
+    border-radius: 60%;
+    margin: 20px auto;
+}
+
+ul{
+    list-style: none; 
+}
+
+.button-container,
+ a{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    border-radius: 8px;
+}
+
+a.github{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-weight: 300;
+}
+a.frontendmentor{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-weight: 300;
+}
+a.linkedin{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-weight: 300;
+}
+a.twitter{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-weight: 300;
+}
+a.instagram{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        width: 90%;
+        padding: 15px;
+    }
+    .button-container a{
+        padding: 12px;
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    .button-container{
+        padding: 0 10px;
+    }
+
+    h1, h3, h4{
+        text-align: center;
+        padding: 0 10px;
+    }
+    img{
+        width: 100px;
+        margin: 15px auto;
+        border-radius: 50%;
+    }
+}
