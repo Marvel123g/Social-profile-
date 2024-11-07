@@ -1,0 +1,1 @@
+This project is a simple personal profile webpage designed to display key details about an individual. The webpage has been developed with mobile responsiveness in mind, ensuring that it adapts well to various screen sizes, especially smartphones.
